@@ -1,0 +1,4 @@
+service:
+  name: userService
+  id: 1234
+  env: live

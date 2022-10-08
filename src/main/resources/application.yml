@@ -1,0 +1,10 @@
+server:
+  port: 8191
+spring:
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          searchLocations: "[classpath:/, classpath:/config, classpath:config/user, classpath:config/meta"
