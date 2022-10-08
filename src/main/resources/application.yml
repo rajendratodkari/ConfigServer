@@ -8,3 +8,10 @@ spring:
       server:
         native:
           searchLocations: "[classpath:/, classpath:/config, classpath:config/user, classpath:config/meta"
+
+
+
+
+
+# curl localhost:8191/metaservice/dev | python3 -m json.tool
+# curl localhost:8191/userservice/dev | python3 -m json.tool
