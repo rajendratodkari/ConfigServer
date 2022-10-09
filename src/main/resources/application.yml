@@ -15,3 +15,34 @@ spring:
 
 # curl localhost:8191/metaservice/dev | python3 -m json.tool
 # curl localhost:8191/userservice/dev | python3 -m json.tool
+
+
+# ├── HELP.md
+# ├── mvnw
+# ├── mvnw.cmd
+# ├── pom.xml
+# ├── src
+# │   ├── main
+# │   │   ├── java
+# │   │   │   └── com
+# │   │   │       └── rmt
+# │   │   │           └── ConfigService
+# │   │   │               └── Application.java
+# │   │   └── resources
+# │   │       ├── application.yml
+# │   │       └── config
+# │   │           ├── meta
+# │   │           │   ├── metaservice-dev.yml
+# │   │           │   └── metaservice.yml
+# │   │           └── user
+# │   │               ├── userservice-dev.yml
+# │   │               ├── userservice-qa.yml
+# │   │               └── userservice.yml
+# │   └── test
+# │       └── java
+# │           └── com
+# │               └── rmt
+# │                   └── ConfigService
+# │                       └── DemoApplicationTests.java
+# └── target
+#     ├── ConfigService-0.0.1-SNAPSHOT.jar
